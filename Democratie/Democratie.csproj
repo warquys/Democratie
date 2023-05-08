@@ -56,6 +56,10 @@
 
 	<ItemGroup>
 		<None Remove=".editorconfig~RF110d91f.TMP" />
+		<None Remove="Democratie.cs~RF7d2a9f2.TMP" />
+		<None Remove="DemocratieTranalation.cs~RF7c6dcb4.TMP" />
+		<None Remove="DemocratieTranalation.cs~RF7ca2577.TMP" />
+		<None Remove="Vote.cs~RF7cc4142.TMP" />
 	</ItemGroup>
 
 </Project>
