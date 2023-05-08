@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Authors>VT</Authors>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>Democratie</RootNamespace>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsPublishable>False</IsPublishable>
+		<SignAssembly>False</SignAssembly>
+		<ErrorReport>prompt</ErrorReport>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" />
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'" />
+
+	<ItemGroup>
+		<PackageReference Include="SynapseSL" Version="3.0.0-pre1.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include=" Neuron.Core.Plugins" />
+		<Using Include="Neuron.Core" />
+		<Using Include="Neuron.Core.Meta" />
+		<Using Include="Neuron.Modules.Commands" />
+		<Using Include="Neuron.Modules.Commands.Command" />
+		<Using Include="Synapse3.SynapseModule" />
+		<Using Include="Synapse3.SynapseModule.Command" />
+		<Using Include="Synapse3.SynapseModule.Config" />
+		<Using Include="Synapse3.SynapseModule.Enums" />
+		<Using Include="Synapse3.SynapseModule.Events" />
+		<Using Include="Synapse3.SynapseModule.Map" />
+		<Using Include="Synapse3.SynapseModule.Map.Rooms" />
+		<Using Include="Synapse3.SynapseModule.Player" />
+		<Using Include="UnityEngine" />
+		<Using Include="UnityEngine.Random">
+			<Alias>Random</Alias>
+		</Using>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="61affe.jpg">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EditorConfigFiles Remove="F:\Dev\CSharp\SCP SL\Synapse\Azarus\PluginsWarkis\air bomb\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove=".editorconfig~RF110d91f.TMP" />
+	</ItemGroup>
+
+</Project>
